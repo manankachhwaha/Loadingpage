@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <style>
+        body {
+            background-color: #290080; /* Purple background color */
+            margin: 50;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: transparent; /* Transparent navigation bar background */
+            padding: 50px 0; /* Adding some space from the top */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-title {
+            color: white;
+            text-align: left;
+            margin-left: 291px; /* Add left margin for the title */
+            font-size: 24px;
+        }
+
+        .navbar-buttons {
+            margin-right: 372px; /* Add right margin for the buttons */
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-left: 20px; /* Add margin between buttons */
+        }
+
+        .navbar a.purchase {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #a50f5f; /* Green background for the Purchase button */
+            color: #fff; /* Text color */
+            border-radius: 25px; /* Rounded edges */
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            cursor: pointer;
+
+        }
+
+        
+
+        .navbar a:hover {
+            color: #555; /* Hover color for navigation items */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container-left {
+            width: 42%;
+            background-color: #290080; /* Purple background for containers */
+            color: #fff; /* Text color */
+            padding: 20px;
+            margin-left:250px;
+            font-size: large;
+        }
+
+        .container-right {
+            width: 25%;
+            background-color: #ffffff; /* Purple background for containers */
+            color: #000000; /* Text color */
+            padding: 0px 51px;
+            margin-right: 350px;
+            border-radius: 25px;
+        }
+
+        .container-left p1 {
+            font-size: 50px;
+        }
+
+        .container-left p2 {
+            font-size: 22px;
+        }
+
+        .learn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #a50f5f; /* Green background for the Purchase button */
+            color: #fff; /* Text color */
+            border-radius: 25px; /* Rounded edges */
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .container-right h1 {
+            font-size: 36px;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+        }
+
+        .container-right .input-group {
+            margin: 20px 0;
+            border-radius: 25px;
+        }
+
+        .container-right input[type="text"], .container-right input[type="password"] {
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 10px;
+            border-radius: 25px;
+            color: #cdcccc;
+            border-style:solid;
+        }
+
+        .container-right .checkbox {
+            margin-right: 10px;
+        }
+
+        .container-right .sign-in-button {
+            background-color: #5223b6;
+            color: white;
+            border: none;
+            padding: 9px 80px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 25px;
+            margin-left: 25px;
+            
+        }
+        .or-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .or-line {
+            flex: 1;
+            height: .5px;
+            color: #858585;
+            background: #7b7b7b;
+        }
+        
+        .or-text {
+            margin: 0 10px;
+            color: #767676;
+            font-size: 13px;
+        }
+        .container-right .round-button {
+            background-color: #0ea7fa;
+            color: white;
+            border: none;
+            padding: 9px 42px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 25px;
+            margin-left: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+     
+        }
+        .container-right .text {
+            margin: 20px 0;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center;     /* Center vertically */
+        }
+
+        .signincolor{
+            color: rgb(3, 218, 21);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="navbar-title">Startup 3</h1>
+        <div class="navbar-buttons">
+            <a href="#">Overview</a>
+            <a href="#">Prices</a>
+            <a href="#">Blog</a>
+            <a href="#">Feedback</a>
+            <a class="purchase" href="#">Purchase</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-left">
+            <p1>
+                Generate<br>
+                Awesome Web<br>
+                Pages<br><br>
+            </p1>
+            <p2>
+                The most important part of the<br>
+                Startup is the samples. The<br>
+                samples form a set of 25 usable<br>
+                pages you can use as in or you can<br>
+                add new blocks.<br><br>
+
+            </p2>
+            <a class="learn" href="#">Learn More</a>
+        </div>
+        
+
+
+
+        <div class="container-right">
+            <h1>Sign up Now</h1>
+            <div class="input-group">
+                <input type="text" placeholder="Your email">
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="Your password">
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="agree" name="agree">
+                <label class="checkbox" for="agree">I agree to the terms of service</label>
+            </div>
+            <button class="sign-in-button" type="submit">Sign in</button>
+            <div class="or-container">
+                <div class="or-line"></div>
+                <div class="or-text">or</div>
+                <div class="or-line"></div>
+            </div>
+            <button class="round-button" type= "submit">Login via Twitter</button>
+            <div class="text">
+                Do You Have an Account?  
+               <a class="signincolor" href="#"> Sign In </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
